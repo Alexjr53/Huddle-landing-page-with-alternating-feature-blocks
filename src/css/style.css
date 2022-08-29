@@ -1,0 +1,77 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    min-height: 74vh;
+    max-width: 77%;
+    background: red url(../images/bg-hero-desktop.svg) no-repeat;
+    background-position: cover;
+}
+
+.header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.6rem 7.6rem 6.5rem;
+}
+
+.header .logo img{
+    width: 20rem;
+}
+
+.header .logo .btn{
+    padding: 1.9rem 7.7rem;
+    border-radius: 2.5rem;
+    background-color: blue;
+}
+
+.header .hero{
+    display: flex;
+    align-items: center;
+    padding: 0 7.7rem;
+    gap: 3.6rem;
+}
+
+.header .hero .hero-info{
+    max-width: 55rem;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .hero .hero-info h1{
+    font-size: 4.3rem;
+    margin-top: 4rem;
+}
+
+.header .hero .hero-info p{
+    font-size: 2.1rem;
+    margin-top: 4.5rem;
+}
+
+.header .hero .hero-info a{
+    padding: 2.3rem 10rem;
+    border-radius: 3rem;
+    align-self: flex-start;
+    margin-top: 3.5rem;
+    background-color: blue;
+}
+
+.header .hero img{
+    width: 54%;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
