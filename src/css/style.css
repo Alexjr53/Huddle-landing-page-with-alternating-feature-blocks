@@ -27,14 +27,14 @@ body{
 }
 
 .header .logo .btn{
+    font-family: var(--secundary-font);
+    color: var(--primary-dark-color);
     padding: 1.4rem 6.3rem;
     border-radius: 2.5rem;
     box-shadow: 0 0 1rem #0000002a;
     background-color: white;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--primary-dark-color);
-    font-family: var(--secundary-font);
 }
 
 .header .hero{
@@ -66,16 +66,20 @@ body{
     margin-top: 2.9rem;
 }
 
-.header .hero .hero-info a{
-    padding: 1.9rem 7rem;
-    border-radius: 3rem;
-    align-self: flex-start;
-    margin-top: 2.8rem;
+.header .hero .hero-info .btn-2{
     background-color: var(--secundary-soft-color);
-    color: white;
+    align-self: flex-start;
+    padding: 1.9rem 7rem;
+    margin-top: 2.8rem;
+    border-radius: 3rem;
+    font-family: var(--secundary-font);
     font-size: 1.4rem;
     font-weight: 600;
-    font-family: var(--secundary-font);
+    color: white;
+}
+
+.header .hero .hero-info .btn-2:hover{
+    opacity: 0.6;
 }
 
 .header .hero img{
