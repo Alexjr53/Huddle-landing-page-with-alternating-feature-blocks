@@ -10,7 +10,7 @@ body{
 
 .header{
     min-height: 74vh;
-    max-width: 77%;
+    max-width: 76.5vw;
     background: var(--primary-soft-color) url(../images/bg-hero-desktop.svg) no-repeat;
     background-position: cover;
 }
@@ -86,14 +86,15 @@ body{
     width: 54%;
 }
 
-main{
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 16rem;
+    min-height: 1750px;
 }
 
-main .main-content{
+.container .main-content{
     display: flex;
     align-items: center;
     border-radius: 1rem;
@@ -101,56 +102,88 @@ main .main-content{
     max-width: 66%;
 }
 
-main .main-content .service-details h2{
+.container .main-content .service-details h2{
     font-size: 2.8rem;
     font-family: var(--primary-font);
 }
 
-main .main-content .service-details p{
+.container .main-content .service-details p{
     font-family: var(--secundary-font);
     font-size: 1.8rem;
     line-height: 2.8rem;
 }
 
-main .main-content .ilustration{
+.container .main-content .ilustration{
     width: 40rem;
 }
 
-main .first{
+.container .first{
     padding: 6rem 3rem 5.3rem 12rem;
 }
 
-main .first .service-details p{
+.container .first .service-details p{
     padding-right: 17rem;
     margin-top: 1rem;
 }
 
-main .second{
+.container .second{
     margin-top: 4rem;
     padding: 8rem 2rem 8rem 12rem;
 }
 
-main .second .service-details{
+.container .second .service-details{
     padding-left: 18rem;
 }
 
-main .second .service-details p{
+.container .second .service-details p{
     margin-top: 1.3rem;
 }
 
-main .third{
+.container .third{
     margin-top: 4rem;
     padding: 7rem 2rem 7rem 12rem;
 }
 
-main .third .service-details{
+.container .third .service-details{
     padding-right: 17rem;
 }
 
-main .third .service-details p{
+.container .third .service-details p{
     margin-top: 1.3rem;
 }
 
-footer{
-    
+.footer{
+    background-color: var(--primary-dark-color);
+    width: 76.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .get-started{
+    background-color: white;
+    width: 80rem;
+    height: 28rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1rem #0000001c;
+    margin-top: -18rem;
+}
+
+.footer .get-started h3{
+    font-family: var(--primary-font);
+    font-size: 3.2rem;
+}
+
+.footer .get-started .btn-2{
+    background-color: var(--secundary-soft-color);
+    padding: 2.7rem 10rem;
+    border-radius: 4rem;
+    font-family: var(--secundary-font);
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+    margin-top: 3.3rem;
 }
