@@ -157,6 +157,9 @@ body{
     width: 76.5vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .footer .get-started{
@@ -186,4 +189,17 @@ body{
     font-size: 2rem;
     color: white;
     margin-top: 3.3rem;
+}
+
+.footer img{
+    align-self: flex-start;
+    filter: brightness(0) saturate(100%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
+}
+
+.footer .footer-container{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    
 }
